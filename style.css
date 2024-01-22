@@ -1,0 +1,64 @@
+/*|#MakVie-SAinte|*/
+
+*, *::before, *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 100%;
+}
+
+body {
+   background-color: #fff;
+   color: #222;
+}
+
+.container {
+   display: flex;
+   overflow: hidden;
+   width: 100%;
+   position: absolute;
+   top: 40%;
+   transform: translateY(-50%);
+   /* transform: rotate(90deg); */
+}
+
+.txt {
+   white-space: nowrap;
+   font-size: 200px;
+   animation: scrollTxt 15s linear infinite;
+}
+
+@keyframes scrollTxt {
+   0% {
+      transform: translate(0%, 0);
+   }
+   100% {
+      transform: translate(-100%, 0);
+   }
+}
+
+
+
+/*** Dans l'autres sens ***/
+
+
+
+/* @keyframes scrollTxt {
+   0% {
+      transform: translate(-100%, 0);
+   }
+   100% {
+      transform: translate(0%, 0);
+   }
+} */
+
+
+
+/* .t1 {color: red;}
+.t2 {color: blue;} */
+
+
+/* 925DEV */
